@@ -9,4 +9,12 @@
         <maven.compiler.release>21</maven.compiler.release>
         <exec.mainClass>mail_sender.ProyectoMail</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+    </dependencies>
+    
 </project>

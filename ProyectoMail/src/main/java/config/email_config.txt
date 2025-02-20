@@ -1,0 +1,7 @@
+HotmailConfig.host=smtp-mail.outlook.com
+HotmailConfig.port=587
+HotmailConfig.protocol=SMTP
+
+GmailConfig.host=smtp.gmail.com
+GmailConfig.port=587
+GmailConfig.protocol=SMTP
