@@ -16,7 +16,7 @@ public class EmailConfigManager {
             System.err.println("Error al leer el archivo de configuración: " + e.getMessage());
         }
 
-        // Cargar la configuración seleccionada (por ejemplo, smtpConfig1)
+        // Cargar la configuración seleccionada (por ejemplo, smtpConfig1) pero aun falta editar para poder que sea imap, etc.
         loadConfiguration(configName);
     }
 

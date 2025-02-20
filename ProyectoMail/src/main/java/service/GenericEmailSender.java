@@ -65,7 +65,7 @@ public class GenericEmailSender {
         Properties properties = new Properties();
 
         try (FileInputStream fileInputStream = new FileInputStream(
-                "C:\\Users\\angel\\OneDrive\\Escritorio\\Arquitectura_Software2025\\ProyectoMail\\src\\main\\java\\config\\email_config.txt")) {
+                "config/email_config.txt")) {
             properties.load(fileInputStream); // Carga las propiedades del archivo .txt
         } catch (Exception e) {
             throw new Exception("Error al cargar la configuración del archivo", e);
